@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmHill.Llama", "PalmHill.Llama\PalmHill.Llama.csproj", "{D444068E-160D-49FE-9438-20BC046ECFE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CEDD233-5D6B-4CCB-B2DA-9680A385A275}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmHill.BlazorChat.Client", "PalmHill.BlazorChat\Client\PalmHill.BlazorChat.Client.csproj", "{829484C4-2F4B-4197-A679-68C737EEACB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmHill.BlazorChat.Server", "PalmHill.BlazorChat\Server\PalmHill.BlazorChat.Server.csproj", "{C7AAFE1B-0ED8-410A-AE0F-4B549E58FCAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmHill.BlazorChat.Shared", "PalmHill.BlazorChat\Shared\PalmHill.BlazorChat.Shared.csproj", "{F2337C3B-69E8-43F8-8D21-382C233702D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalmHill.BlazorChat.ApiClient", "PalmHill.BlazorChat.ApiClient\PalmHill.BlazorChat.ApiClient.csproj", "{434FEDF0-2AD0-4276-AC06-E26126EEF237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D444068E-160D-49FE-9438-20BC046ECFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D444068E-160D-49FE-9438-20BC046ECFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D444068E-160D-49FE-9438-20BC046ECFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D444068E-160D-49FE-9438-20BC046ECFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829484C4-2F4B-4197-A679-68C737EEACB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829484C4-2F4B-4197-A679-68C737EEACB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829484C4-2F4B-4197-A679-68C737EEACB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829484C4-2F4B-4197-A679-68C737EEACB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AAFE1B-0ED8-410A-AE0F-4B549E58FCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AAFE1B-0ED8-410A-AE0F-4B549E58FCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AAFE1B-0ED8-410A-AE0F-4B549E58FCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AAFE1B-0ED8-410A-AE0F-4B549E58FCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2337C3B-69E8-43F8-8D21-382C233702D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2337C3B-69E8-43F8-8D21-382C233702D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2337C3B-69E8-43F8-8D21-382C233702D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2337C3B-69E8-43F8-8D21-382C233702D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434FEDF0-2AD0-4276-AC06-E26126EEF237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434FEDF0-2AD0-4276-AC06-E26126EEF237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434FEDF0-2AD0-4276-AC06-E26126EEF237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434FEDF0-2AD0-4276-AC06-E26126EEF237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DF9051E-8561-446C-A0B0-438D2EE80F26}
+	EndGlobalSection
+EndGlobal
